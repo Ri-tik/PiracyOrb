@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/book"
+    tools:context=".Reading">
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/ReadText1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="15dp"
+                android:background="@color/colorWhite"
+                android:text="Knowledge Media"
+                android:textAlignment="center"
+                android:textColor="@color/dark"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+            <Button
+                android:id="@+id/ReadButton1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/transparent"
+                android:text="curiosity"
+                android:textColor="@color/colorGreen"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/ReadButton2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ReadButton1"
+                android:layout_marginTop="6dp"
+                android:layout_marginEnd="0dp"
+                android:background="@android:color/transparent"
+                android:text="Ted-Ed"
+                android:textColor="@color/colorGreen"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/ReadButton3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ReadButton2"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="6dp"
+                android:background="@android:color/transparent"
+                android:text="HowStuffWorks"
+                android:textColor="@color/colorGreen"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/ReadButton4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ReadButton3"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="6dp"
+                android:layout_marginEnd="0dp"
+                android:background="@android:color/transparent"
+                android:text="PopScience"
+                android:textColor="@color/colorGreen"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/ReadButton5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ReadButton4"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="6dp"
+                android:background="@android:color/transparent"
+                android:text="Medium"
+                android:textColor="@color/colorGreen"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/ReadButton6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ReadButton5"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="6dp"
+                android:background="@android:color/transparent"
+                android:text="BookOfLife"
+                android:textColor="@color/colorGreen"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/ReadButton7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ReadButton6"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="6dp"
+                android:background="@android:color/transparent"
+                android:text="WaitButWhy"
+                android:textColor="@color/colorGreen"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/ReadButton8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ReadButton7"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="6dp"
+                android:layout_marginEnd="0dp"
+                android:background="@android:color/transparent"
+                android:text="BrainPicking"
+                android:textColor="@color/colorGreen"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/ReadText2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorWhite"
+                android:text="Communities"
+                android:textAlignment="center"
+                android:textColor="@color/dark"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/ReadButton9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ReadButton8"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="6dp"
+                android:background="@android:color/transparent"
+                android:text="Quora"
+                android:textColor="@color/colorOrange"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/ReadButton10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ReadButton9"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="6dp"
+                android:layout_marginEnd="0dp"
+                android:background="@android:color/transparent"
+                android:text="Reddit"
+                android:textColor="@color/colorOrange"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/ReadButton11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ReadButton10"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="6dp"
+                android:background="@android:color/transparent"
+                android:text="Instructables"
+                android:textColor="@color/colorOrange"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/ReadButton12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ReadButton11"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="6dp"
+                android:background="@android:color/transparent"
+                android:text="StackExchange"
+                android:textColor="@color/colorOrange"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/ReadButton13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ReadButton12"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="6dp"
+                android:layout_marginEnd="0dp"
+                android:background="@android:color/transparent"
+                android:text="Academia"
+                android:textColor="@color/colorOrange"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/ReadButton14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ReadButton13"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="6dp"
+                android:layout_marginEnd="0dp"
+                android:background="@android:color/transparent"
+                android:text="Socratic"
+                android:textColor="@color/colorOrange"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/ReadText3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="10dp"
+                android:text="Learning Sites"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimaryDark"
+                android:background="@color/colorWhite"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/ReadButton15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ReadText3"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="6dp"
+                android:layout_marginEnd="0dp"
+                android:background="@android:color/transparent"
+                android:text="Lumosity"
+                android:textColor="@color/colorBlue"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/ReadButton16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ReadButton15"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="6dp"
+                android:layout_marginEnd="0dp"
+                android:background="@android:color/transparent"
+                android:text="Memrise"
+                android:textColor="@color/colorBlue"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/ReadButton17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ReadButton16"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="6dp"
+                android:layout_marginEnd="0dp"
+                android:background="@android:color/transparent"
+                android:text="Macat"
+                android:textColor="@color/colorBlue"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/ReadButton18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ReadButton17"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="6dp"
+                android:layout_marginEnd="0dp"
+                android:background="@android:color/transparent"
+                android:text="Duolingo"
+                android:textColor="@color/colorBlue"
+                android:textStyle="bold" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

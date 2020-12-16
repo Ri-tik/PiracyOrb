@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/instaheart"
+    tools:context=".TorSearch">
+
+    <Button
+        android:id="@+id/TSbutton1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="7dp"
+        android:textColor="@color/colorOrange"
+        android:background="@android:color/transparent"
+        android:text="MagnetDL"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/TSbutton2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TSbutton1"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:textColor="@color/colorOrange"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/transparent"
+        android:text="TorrentZ2"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/TSbutton3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorOrange"
+        android:layout_below="@+id/TSbutton2"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/transparent"
+        android:text="SolidTorrents"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/TSbutton4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorOrange"
+        android:layout_below="@+id/TSbutton3"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="0dp"
+        android:background="@android:color/transparent"
+        android:text="SkyTorrent"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/TSbutton5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TSbutton4"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorOrange"
+        android:background="@android:color/transparent"
+        android:text="TorrentNZ"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/TSbutton6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorOrange"
+        android:layout_below="@+id/TSbutton5"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="0dp"
+        android:background="@android:color/transparent"
+        android:text="TorrentIO"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/TSbutton7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TSbutton6"
+        android:layout_alignParentStart="true"
+        android:textColor="@color/colorOrange"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/transparent"
+        android:text="MovieMagnet"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/TSbutton8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TSbutton7"
+        android:textColor="@color/colorOrange"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/transparent"
+        android:text="DIGBT"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/TSbutton9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TSbutton8"
+        android:textColor="@color/colorOrange"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/transparent"
+        android:text="AIO"
+        android:textStyle="bold" />
+</RelativeLayout>

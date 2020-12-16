@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/by"
+    tools:context=".ModApps">
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+
+            <Button
+                android:id="@+id/ModAppsButton1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_marginEnd="0dp"
+                android:background="@android:color/transparent"
+                android:textColor="#F000"
+                android:text="mobilism"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/ModAppsButton2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ModAppsButton1"
+                android:layout_marginTop="6dp"
+                android:layout_marginEnd="0dp"
+                android:background="@android:color/transparent"
+                android:textColor="#F000"
+                android:text="aptoide"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/ModAppsButton3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ModAppsButton2"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="6dp"
+                android:background="@android:color/transparent"
+                android:textColor="#F000"
+                android:text="onhax"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/ModAppsButton4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ModAppsButton3"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="6dp"
+                android:layout_marginEnd="0dp"
+                android:background="@android:color/transparent"
+                android:textColor="#F000"
+                android:text="apkmirror"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/ModAppsButton5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ModAppsButton4"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="6dp"
+                android:background="@android:color/transparent"
+                android:textColor="#F000"
+                android:text="apkpure"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/ModAppsButton6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ModAppsButton5"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="6dp"
+                android:background="@android:color/transparent"
+                android:textColor="#F000"
+                android:text="acmarket"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/ModAppsButton7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ModAppsButton6"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="6dp"
+                android:background="@android:color/transparent"
+                android:text="blackmod"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/ModAppsButton8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ModAppsButton7"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="6dp"
+                android:layout_marginEnd="0dp"
+                android:background="@android:color/transparent"
+                android:text="android-zone"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/ModAppsButton9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ModAppsButton8"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="6dp"
+                android:background="@android:color/transparent"
+                android:text="revdl"
+                android:textStyle="bold" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

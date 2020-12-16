@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/anime3"
+    tools:context=".AnimeSites">
+
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/AnimeText1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="15dp"
+            android:background="@android:color/transparent"
+            android:text="Anime Torrent Sites"
+            android:textAlignment="center"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/AnimeButton1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/AnimeText1"
+            android:layout_alignParentStart="true"
+            android:textColor="@color/colorWhite"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="5dp"
+            android:background="@android:color/transparent"
+            android:text="Nyaa1"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/AnimeButton2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/AnimeButton1"
+            android:textColor="@color/colorWhite"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="5dp"
+            android:background="@android:color/transparent"
+            android:text="Nyaa2"
+            android:textStyle="bold" />
+        android:textColor="@color/colorW"
+        <Button
+            android:id="@+id/AnimeButton3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/AnimeButton2"
+            android:layout_alignParentStart="true"
+            android:textColor="@color/colorWhite"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="5dp"
+            android:background="@android:color/transparent"
+            android:text="Anime Kaizoku"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/AnimeButton4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/AnimeButton3"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="0dp"
+            android:textColor="@color/colorWhite"
+            android:layout_marginTop="5dp"
+            android:background="@android:color/transparent"
+            android:text="HorribleSubs"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/AnimeText2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/transparent"
+            android:text="Watch or Download"
+            android:textAlignment="center"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/AnimeButton5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/AnimeText1"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:textColor="@color/colorWhite"
+        android:layout_marginTop="5dp"
+        android:background="@android:color/transparent"
+        android:text="AnimeGo"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/AnimeButton6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/AnimeButton5"
+        android:textColor="@color/colorWhite"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="0dp"
+        android:background="@android:color/transparent"
+        android:text="AnimeOut"
+        android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/AnimeButton7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/AnimeButton6"
+            android:textColor="@color/colorWhite"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="5dp"
+            android:background="@android:color/transparent"
+            android:text="AnimeWatcher"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/AnimeButton8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/AnimeButton7"
+            android:textColor="@color/colorWhite"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="5dp"
+            android:background="@android:color/transparent"
+            android:text="AnimeRam"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/AnimeButton9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/AnimeButton8"
+            android:layout_alignParentStart="true"
+            android:textColor="@color/colorWhite"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="5dp"
+            android:background="@android:color/transparent"
+            android:text="Anime8"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/AnimeButton10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/AnimeButton9"
+            android:textColor="@color/colorWhite"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="5dp"
+            android:background="@android:color/transparent"
+            android:text="AnimeTwist"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/AnimeButton11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorWhite"
+            android:layout_below="@+id/AnimeButton10"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="5dp"
+            android:background="@android:color/transparent"
+            android:text="4Anime"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/AnimeButton12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/AnimeButton11"
+            android:layout_alignParentStart="true"
+            android:textColor="@color/colorWhite"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="5dp"
+            android:background="@android:color/transparent"
+            android:text="KissAnime"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/AnimeButton13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/AnimeButton12"
+            android:layout_alignParentStart="true"
+            android:textColor="@color/colorWhite"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="5dp"
+            android:background="@android:color/transparent"
+            android:text="9Anime"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/AnimeButton14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/AnimeButton13"
+            android:layout_alignParentStart="true"
+            android:textColor="@color/colorWhite"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="5dp"
+            android:background="@android:color/transparent"
+            android:text="NarutoSpot"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/AnimeText3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="10dp"
+            android:text="Cartoon Sites"
+            android:background="@android:color/transparent"
+            android:textAlignment="center"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textStyle="bold" />
+        
+
+        <Button
+            android:id="@+id/AnimeButton15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/AnimeText3"
+            android:layout_alignParentStart="true"
+            android:textColor="@color/colorWhite"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="5dp"
+            android:background="@android:color/transparent"
+            android:text="KissCartoon"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/AnimeButton16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/AnimeButton15"
+            android:layout_alignParentStart="true"
+            android:textColor="@color/colorWhite"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="5dp"
+            android:background="@android:color/transparent"
+            android:text="WatchCartoon"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/AnimeButton17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/AnimeButton16"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="0dp"
+            android:textColor="@color/colorWhite"
+            android:layout_marginTop="5dp"
+            android:background="@android:color/transparent"
+            android:text="AnimeToon"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/AnimeButton18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/AnimeButton17"
+            android:layout_alignParentStart="true"
+            android:textColor="@color/colorWhite"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="5dp"
+            android:background="@android:color/transparent"
+            android:text="TooNova"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/AnimeButton19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/AnimeButton18"
+            android:layout_alignParentStart="true"
+            android:textColor="@color/colorWhite"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="5dp"
+            android:background="@android:color/transparent"
+            android:text="KimCartoon"
+            android:textStyle="bold" />
+
+
+
+    </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/walpmage"
+    tools:context=".StreamingApps">
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+
+            <Button
+                android:id="@+id/StreamingAppsButton1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_marginEnd="0dp"
+                android:background="@android:color/transparent"
+                android:text="Kokotime"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/StreamingAppsButton2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/StreamingAppsButton1"
+                android:layout_marginTop="6dp"
+                android:layout_marginEnd="0dp"
+                android:background="@android:color/transparent"
+                android:text="mobdro"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/StreamingAppsButton3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/StreamingAppsButton2"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="6dp"
+                android:background="@android:color/transparent"
+                android:text="cinemaapk"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/StreamingAppsButton4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/StreamingAppsButton3"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="6dp"
+                android:layout_marginEnd="0dp"
+                android:background="@android:color/transparent"
+                android:text="fildo"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/StreamingAppsButton5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/StreamingAppsButton4"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="6dp"
+                android:background="@android:color/transparent"
+                android:text="teatv"
+                
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/StreamingAppsButton6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/StreamingAppsButton5"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="6dp"
+                android:background="@android:color/transparent"
+                android:text="cotomovies"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/StreamingAppsButton7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/StreamingAppsButton6"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="6dp"
+                android:background="@android:color/transparent"
+                android:text="animeglare"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/StreamingAppsButton8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/StreamingAppsButton7"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="6dp"
+                android:layout_marginEnd="0dp"
+                android:background="@android:color/transparent"
+                android:text="animevibe"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/StreamingAppsButton9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/StreamingAppsButton8"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="6dp"
+                android:background="@android:color/transparent"
+                android:text="apollotv"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/StreamingAppsButton10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/StreamingAppsButton9"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="6dp"
+                android:layout_marginEnd="0dp"
+                android:background="@android:color/transparent"
+                android:text="beetvapk"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/StreamingAppsButton11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/StreamingAppsButton10"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="6dp"
+                android:background="@android:color/transparent"
+                android:text="cybercloud"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/StreamingAppsButton12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/StreamingAppsButton11"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="6dp"
+                android:background="@android:color/transparent"
+                android:text="zionapp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/StreamingAppsButton13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/StreamingAppsButton12"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="6dp"
+                android:layout_marginEnd="0dp"
+                android:background="@android:color/transparent"
+                android:text="unlockmytv"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/StreamingAppsButton14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/StreamingAppsButton13"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="6dp"
+                android:layout_marginEnd="0dp"
+                android:background="@android:color/transparent"
+                android:text="morpheustv"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/StreamingAppsButton15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/StreamingAppsButton14"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="6dp"
+                android:layout_marginEnd="0dp"
+                android:background="@android:color/transparent"
+                android:text="titaniumtv"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>

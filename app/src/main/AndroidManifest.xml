@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="academy.ltreitk.piracyorb">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ModApps"></activity>
+        <activity android:name=".StreamingApps" />
+        <activity android:name=".Applications" />
+        <activity android:name=".Tutorials" />
+        <activity android:name=".AboutInfo" />
+        <activity android:name=".ComicManga" />
+        <activity android:name=".EABook" />
+        <activity android:name=".MovieTvSites" />
+        <activity android:name=".StreamingSites" />
+        <activity android:name=".TorrentSites" />
+        <activity android:name=".ReadWebView" />
+        <activity android:name=".Reading" />
+        <activity android:name=".TorSearch" />
+        <activity android:name=".Torrent" />
+        <activity android:name=".WebView" />
+        <activity android:name=".AnimeSites" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

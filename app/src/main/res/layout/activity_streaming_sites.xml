@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/marvel"
+    tools:context=".StreamingSites">
+
+
+    <Button
+        android:id="@+id/StreamButton1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="59dp"
+        android:background="@android:color/transparent"
+        android:text="Anime/Cartoon "
+        android:textColor="#263238"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/StreamButton2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/StreamButton1"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="34dp"
+        android:background="@android:color/transparent"
+        android:text="Movies/Tv Series"
+        android:textColor="#263238"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+</RelativeLayout>
